@@ -1,16 +1,16 @@
 # ssid_detector
 
-A new Flutter application.
+Get SSID of Wifi
 
-## Getting Started
+## Note
 
-This project is a starting point for a Flutter application.
+1. iOS
+ - Need profile with Wifi access cappability
+ - Location Service is On
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Android
+ - Permission:
+     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+ - Location Service is On with High Accuracy option
