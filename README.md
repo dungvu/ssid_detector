@@ -10,7 +10,9 @@ Get SSID of Wifi
 
 2. Android
  - Permission:
-     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+ ```
+ <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+ ```
  - Location Service is On with High Accuracy option
